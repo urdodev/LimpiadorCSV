@@ -22,5 +22,5 @@ class LimpiadorCSV:
             except Exception as e:
                 logging.error(f"Error procesando {entrada}: {e}")
 
-mi_robot = LimpiadorCSV(entrada="Entrada")
-mi_robot.ProcesarDatos()
+#mi_robot = LimpiadorCSV(entrada="Entrada")
+#mi_robot.ProcesarDatos()

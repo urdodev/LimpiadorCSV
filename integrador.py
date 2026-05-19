@@ -23,7 +23,7 @@ class ProcessadorAPI:
             return
         df = pd.DataFrame(datos)
         columnas = df[["id", "name", "email"]]
-        print(columnas)
+        return columnas
 
-integrador = ProcessadorAPI("https://jsonplaceholder.typicode.com/users")
-integrador.crear_reporte()
+#integrador = ProcessadorAPI("https://jsonplaceholder.typicode.com/users")
+#integrador.crear_reporte()
