@@ -1,0 +1,11 @@
+# Entorno Virtual
+.venv/
+
+# Archivos de Registro
+*.log
+
+# Datos de entrada (Seguridad)
+entrada/
+
+# Archivos temporales de Python
+__pycache__/
